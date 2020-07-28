@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Todo Application.</title>
+  <link rel="icon" href="https://images.idgesg.net/images/article/2019/07/microsoft-to-do-mac-icon-100802168-large.jpg" type="image/gif" sizes="20x30">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+  <nav class="flex items-center justify-between flex-wrap bg-teal-500 p-6">
+    <div class="flex items-center flex-shrink-0 text-white mr-6">
+      <!-- <svg class="fill-current h-8 w-8 mr-2" width="54" height="54" viewBox="0 0 54 54" xmlns="http://www.w3.org/2000/svg"><path d="M13.5 22.1c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05zM0 38.3c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05z"/></svg> -->
+      <i class="fa fa-tasks" style="font-size:40px;color:white"></i> &nbsp;
+      <span class="font-semibold text-xl tracking-tight">Todo Application.</span>
+    </div>
+
+  </nav>
+
+
+
+  <div class="container">
+    <div class="container-sm">
+      <span class="font-semibold text-xl tracking-tight">what are you doing today?.</span>
+    </div>
+    <div> <input class="container-lg" placeholder="what are you doing today?" style="color: aliceblue;" type="text" maxlength="30"
+        id="todo-item"> </div>
+   <div class="container-xl"> <button class="ayan" onclick="addtodo()">ADD ITEMS</button>
+    <button class="ayan" onclick="deltall()"> DELETE ALL </button> </div>
+  </div>
+  <div class="container">
+    <ul class="jani" id="list">
+
+
+
+    </ul>
+
+  </div>
+  <script src="app.js"></script>
+
+</body>
+
+</html>

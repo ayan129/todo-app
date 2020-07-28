@@ -1,0 +1,71 @@
+.ayan {
+    background-color: white; 
+    color: black; 
+    border: 2px  solid #40b4ac;
+    border-radius: 5px;
+    width: 110px;
+    margin : 10px
+     
+   
+  }
+  
+  .ayan:hover {
+    background-color: #40b4ac;
+    color: white;
+
+  }
+
+  .input{
+background-color: #40b4ac;
+color: white;
+width: 250px;
+
+border-radius: 2px;
+  }
+
+  .container{
+
+    margin-top: 50px;
+    text-align: center;
+  }
+ .jani{
+
+    background-color: #40b4ac;
+color: white;
+
+ }
+.container-lg{
+
+    margin-top: 50px;
+    text-align: center;
+    background-color: #40b4ac;
+    color: white;
+    width: 300px;
+    height: 50px;
+    border-radius: 2px;
+
+}
+.container-lg:active{
+
+  border: #40b4ac !important;
+}
+.margin{
+
+   
+    color: #40b4ac;
+    margin-top: 30px;
+}
+
+.container-sm{
+    font-style: italic; 
+}
+
+.container-xl{
+
+margin-top: 25px;
+
+}
+::placeholder {
+  color:  #cccccc !important;
+
+}
